@@ -1399,6 +1399,8 @@ def run_server():
     with socketserver.TCPServer(("0.0.0.0", PORT), HTMXHandler) as httpd:
         print(f"Python HTMX backend active on http://0.0.0.0:{PORT}")
         httpd.serve_forever()
+        
+handler = HTMXHandler
 
 if __name__ == "__main__":
     run_server()
