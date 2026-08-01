@@ -1,0 +1,12 @@
+{
+  "name": "darika-portfolio",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "python3 app.py",
+    "build": "echo 'Build completed'",
+    "start": "python3 app.py",
+    "clean": "rm -rf dist",
+    "lint": "python3 -m py_compile app.py"
+  }
+}

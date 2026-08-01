@@ -1,0 +1,6 @@
+{
+  "name": "Darika T Portfolio",
+  "description": "Professional interactive portfolio website for Darika T featuring Python and HTMX backend services, data analytics showcases, and ATS ResumeIQ tool.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
